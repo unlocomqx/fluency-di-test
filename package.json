@@ -1,0 +1,21 @@
+{
+  "name": "productdesigner",
+  "version": "1.0.0",
+  "description": "Allow your clients to design, preview and order their customized products",
+  "main": "index.js",
+  "author": "Tuni-Soft",
+  "license": "ISC",
+  "scripts": {
+    "build": "webpack",
+    "rebuild": "webpack --watch",
+    "prod": "webpack --config webpack.prod.config.js"
+  },
+  "devDependencies": {
+    "ts-loader": "^2.0.3",
+    "webpack": "^2.6.1"
+  },
+  "dependencies": {
+    "fluency-injection": "^1.1.2",
+    "reflect-metadata": "^0.1.10"
+  }
+}
